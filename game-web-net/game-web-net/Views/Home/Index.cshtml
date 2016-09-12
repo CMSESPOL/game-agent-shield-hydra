@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "CEME";
+}
+<div class="container-fluid bg-1 text-center">
+    <h3>Agent of Shield</h3>
+    <img src="~/images/logoAS.png" class="img-circle" alt="Bird" width="350" height="350">
+</div>
+
+<div class="container-fluid bg-3 text-center">
+    <h3>¿De qué va la temática?</h3>
+    <p>El Lore de CEME es profundo. Como el sueño de sus participantes más o menos. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    @*<button type="button" class="btn btn-outline-primary btn-lg">¡A jugar!</button>*@
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Juego 1</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a  class="btn btn-outline-primary btn-lg" >¡A jugar! &raquo;</a></p>
+            <div id="game"></div>
+            <script>
+                $(document).ready(function(){
+                    $("p").click(function(){
+                        $.get("About").done(function(result) {
+                            $("#game").html(result);
+                        });
+                    });
+                });
+                
+            </script>
+            
+        </div>
+        <div class="col-md-4">
+            <h2>Juego 2</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-outline-primary btn-lg" href="http://go.microsoft.com/fwlink/?LinkId=301866">¡A jugar! &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Juego 3</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-outline-primary btn-lg" href="http://go.microsoft.com/fwlink/?LinkId=301867">¡A jugar! &raquo;</a></p>
+        </div>
+        <hr />
+    </div>
+</div>
+
+
+    @*<div class="jumbotron">
+            <h1>ASP.NET</h1>
+            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+            <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        </div>*@
+
+    @*<div class="row">
+            <div class="col-md-4">
+                <h2>Getting started</h2>
+                <p>
+                    ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                    enables a clean separation of concerns and gives you full control over markup
+                    for enjoyable, agile development.
+                </p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Get more libraries</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Web Hosting</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            </div>
+            <hr/>
+        </div>*@

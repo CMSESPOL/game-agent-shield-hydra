@@ -2,8 +2,8 @@
 // Create the canvas
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 800;
-canvas.height = 600;
+canvas.width = window.innerWidth;
+canvas.height = 500;//window.innerHeight;
 document.body.appendChild(canvas);
 
 // Background image
@@ -12,7 +12,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
 	bgReady = true;
 };
-bgImage.src = "~/images/bck-caught.jpg";
+bgImage.src = "../images/bck-caught.jpg";
 
 // Hero image
 var heroReady = false;
@@ -20,7 +20,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "~/images/1.0.png";
+heroImage.src ="../images/ella.png" ;
 
 // Monster image
 var monsterReady = false;
@@ -28,7 +28,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "~/images/2.0.png";
+monsterImage.src = "../images/elemento1.png";
 
 // Game objects
 var hero = {
@@ -100,11 +100,12 @@ var render = function () {
 	}
 
 	// Score
-	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.fillStyle = "rgb(250, 250, 80)";
 	ctx.font = "22px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Objetos atrapados: " + monstersCaught, 32, 32);
+	
 };
 
 // The main game loop

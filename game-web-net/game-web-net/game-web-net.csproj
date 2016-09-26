@@ -218,11 +218,21 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\1.0.png" />
-    <Content Include="images\2.0.png" />
     <Content Include="images\bck-caught.jpg" />
+    <Content Include="images\body.png" />
+    <Content Include="images\chomp.m4a" />
+    <Content Include="images\dies.m4a" />
+    <Content Include="images\el.png" />
+    <Content Include="images\elemento1.png" />
+    <Content Include="images\ella.png" />
+    <Content Include="images\fruit.png" />
     <Content Include="images\logoAS.png" />
-    <Content Include="Js\game-caught.js" />
+    <Content Include="images\logoCelulaMicrosoft.jpg" />
+    <Content Include="images\logoCEME.png" />
+    <Content Include="images\logoprueba.jpg" />
+    <Content Include="CanvasGame\game-caught.js" />
+    <Content Include="CanvasGame\game-eat.js" />
+    <Content Include="CanvasGame\game-puzzle.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -253,8 +263,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Game1Ceme.cshtml" />
+    <Content Include="Views\Home\Game2Ceme.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -276,6 +286,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Game3Ceme.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

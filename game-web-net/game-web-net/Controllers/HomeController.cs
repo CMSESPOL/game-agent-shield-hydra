@@ -13,17 +13,22 @@ namespace game_web_net.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Game1Ceme()
         {
             //ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Game2Ceme()
         {
-            ViewBag.Message = "Your contact page.";
+            //ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Game3Ceme()
+        {
             return View();
         }
     }

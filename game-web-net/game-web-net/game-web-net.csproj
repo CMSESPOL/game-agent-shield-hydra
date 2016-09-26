@@ -219,6 +219,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\bck-caught.jpg" />
+    <Content Include="images\bck-puzzle.jpg" />
     <Content Include="images\body.png" />
     <Content Include="images\chomp.m4a" />
     <Content Include="images\dies.m4a" />
@@ -229,6 +230,7 @@
     <Content Include="images\logoAS.png" />
     <Content Include="images\logoCelulaMicrosoft.jpg" />
     <Content Include="images\logoCEME.png" />
+    <Content Include="images\logohorizontal.png" />
     <Content Include="images\logoprueba.jpg" />
     <Content Include="CanvasGame\game-caught.js" />
     <Content Include="CanvasGame\game-eat.js" />

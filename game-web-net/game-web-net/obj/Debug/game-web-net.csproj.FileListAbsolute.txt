@@ -81,3 +81,4 @@ C:\Users\Kyanoz\Documents\Development\Ceme\GameWelcome2T16\cmsespolgit\game-web-
 C:\Users\Kyanoz\Documents\Development\Ceme\GameWelcome2T16\cmsespolgit\game-web-net\game-web-net\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Kyanoz\Documents\Development\Ceme\GameWelcome2T16\cmsespolgit\game-web-net\game-web-net\obj\Debug\game-web-net.dll
 C:\Users\Kyanoz\Documents\Development\Ceme\GameWelcome2T16\cmsespolgit\game-web-net\game-web-net\obj\Debug\game-web-net.pdb
+C:\Users\Kyanoz\Documents\Development\Ceme\GameWelcome2T16\cmsespolgit\game-web-net\game-web-net\obj\Debug\game-web-net.csprojResolveAssemblyReference.cache

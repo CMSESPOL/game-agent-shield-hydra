@@ -156,8 +156,9 @@
         // Draw title
         ctx.fillStyle = '#fff';
         ctx.textAlign = 'center';
-        ctx.fillText('SNAKE', 150, 60);
-        ctx.fillText('Press Enter', 150, 90);
+        ctx.font = "22px Helvetica";
+        ctx.fillText('Leviathan', 480, 60);
+        ctx.fillText('Presione Enter', 480, 90);
     };
 
     mainScene.act = function () {
@@ -209,7 +210,10 @@
 
         // Draw score
         ctx.fillStyle = '#fff';
-        ctx.textAlign = 'left';
+        //ctx.textAlign = 'left';
+        ctx.font = "22px Helvetica";
+        ctx.textAlign = "left";
+        ctx.textBaseline = "top";
         ctx.fillText('Puntaje: ' + score, 0, 10);
 
         // Debug last key pressed
@@ -219,9 +223,9 @@
         if (pause) {
             ctx.textAlign = 'center';
             if (gameover) {
-                ctx.fillText('GAME OVER', 150, 75);
+                ctx.fillText('GAME OVER', 480, 75);
             } else {
-                ctx.fillText('PAUSE', 150, 75);
+                ctx.fillText('PAUSE', 480, 75);
             }
         }
     };

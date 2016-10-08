@@ -156,9 +156,9 @@
         // Draw title
         ctx.fillStyle = '#fff';
         ctx.textAlign = 'center';
-        ctx.font = "22px Helvetica";
-        ctx.fillText('Leviathan', 480, 60);
-        ctx.fillText('Presione Enter', 480, 90);
+        ctx.font = "35px Helvetica";
+        ctx.fillText('LEVIATHAN', 550, 120);
+        ctx.fillText('Presione Enter', 550, 160);
     };
 
     mainScene.act = function () {
